@@ -14,4 +14,5 @@ it('returns fake sortingHats response', () => {
     cy.get('[data-test="sort-button"]').click()
     cy.wait('@sortingHatBackend')
     cy.get('[data-test="house-result"]')
+    
 })
